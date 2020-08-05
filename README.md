@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Week4
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.5.
@@ -25,3 +26,7 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+=======
+# AngularLabs
+week 4 Software Frameworks workshop
+>>>>>>> a4f3df4846c23256c8a879ccde2b60f1c7853437
