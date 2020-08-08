@@ -1,21 +1,33 @@
 <p>login works!</p>
-
 <div class="container login-container">
     <div class="row">
         <div class="col-md-6 login-form-1">
-            <h3>Login for Form 1</h3>
+            <h3>Login</h3>
             <form>
                 <div class="form-group">
-                    <input type="email" [(ngModel)]="email" name="email" class="form-control" placeholder="email" value="" />
+                    Email: <br>
+                    <input type="text" [(ngModel)]="userpwd.username" name="username"/> <br>
                 </div>
+                <br>
                 <div class="form-group">
-                    <input type="password" [(ngModel)]="pass" name="pass"  class="form-control" placeholder="password" value="" />
+                    Password: <br>
+                    <input type="password" [(ngModel)]="userpwd.pwd" name="pwd"/> <br>
                 </div>
+                <br>
+                <!--
                 <div class="form-group">
-                    <p> {{ errormsg }} </p>
+                    <input type="date" [(ngModel)]="userobj.userbirthdate"  />
                 </div>
+                <br>
                 <div class="form-group">
-                    <input type="submit" (click)="login()" class="btnSubmit" value="Login" />
+                    <input type="number" [(ngModel)]="userobj.userage"/>
+                </div>
+                <br>
+            -->
+                <div class="form-group">
+                    <input type="submit" (click)="loginfunc()" class="btnSubmit" value="Login" />
                 </div>
             </form>
+        </div>
+        </div>
         </div>
