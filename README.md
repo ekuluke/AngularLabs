@@ -4,8 +4,8 @@ week 4 Software Frameworks workshop
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.5.
 
 To start:
-run `ngx nodemon server.js` in the server directory.
-run `ng serve --open`
+run `ngx nodemon server.js` in the server directory
+and then run `ng serve --open`
 
 
 ## Development server
